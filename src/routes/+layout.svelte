@@ -18,9 +18,9 @@
 				<NavigationMenu.Item>
 					<NavigationMenu.Link href="/">Map</NavigationMenu.Link>
 				</NavigationMenu.Item>
-				<NavigationMenu.Item>
+				<!-- <NavigationMenu.Item>
 					<NavigationMenu.Link href="/blog">Blog</NavigationMenu.Link>
-				</NavigationMenu.Item>
+				</NavigationMenu.Item> -->
 				<NavigationMenu.Item>
 					<NavigationMenu.Link href="/about">About</NavigationMenu.Link>
 				</NavigationMenu.Item>
