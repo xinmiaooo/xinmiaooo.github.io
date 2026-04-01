@@ -1,6 +1,7 @@
 <script lang="ts">
 	import * as Card from '$lib/components/ui/card/index.js';
 	import map1 from '$lib/assets/images/map1.png';
+	import map2 from '$lib/assets/images/map2.png';
 
 	const maps = [
 		{
@@ -8,6 +9,12 @@
 			description: 'March 30, 2026',
 			image: map1,
 			url: 'https://xinmiaooo.github.io/clicklatlng/'
+		},
+		{
+			title: 'Switch basemaps',
+			description: 'March 30, 2026',
+			image: map2,
+			url: 'https://xinmiaooo.github.io/basemap-switch-example/'
 		}
 	];
 </script>
