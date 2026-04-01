@@ -13,7 +13,7 @@
 	bind:ref
 	data-slot="navigation-menu-link"
 	class={cn(
-		"flex items-center gap-1.5 rounded-sm p-2 text-2xl transition-all outline-none hover:bg-muted focus:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-1 data-[active=true]:bg-muted/50 data-[active=true]:hover:bg-muted data-[active=true]:focus:bg-muted [&_svg:not([class*='size-'])]:size-4",
+		"flex items-center gap-15 rounded-sm p-2 text-2xl transition-none outline-none hover:bg-black focus:bg-black focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-1 data-[active=true]:bg-muted/50 data-[active=true]:hover:bg-muted data-[active=true]:focus:bg-muted [&_svg:not([class*='size-'])]:size-4",
 		className
 	)}
 	{...restProps}
