@@ -23,7 +23,7 @@
 	<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
 		{#each maps as map}
 			<a href={map.url} target="_blank" rel="noopener noreferrer">
-				<Card.Root class="overflow-hidden transition-shadow hover:shadow-lg">
+				<Card.Root class="overflow-hidden transition-shadow">
 					<img src={map.image} alt={map.title} class="h-48 w-full object-cover" />
 					<Card.Header>
 						<Card.Title>{map.title}</Card.Title>
