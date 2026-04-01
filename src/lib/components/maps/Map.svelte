@@ -1,11 +1,12 @@
 <script lang="ts">
 	import * as Card from '$lib/components/ui/card/index.js';
+	import map1 from '$lib/assets/images/map1.png';
 
 	const maps = [
 		{
 			title: 'Click to copy coordinates',
-			description: 'あああ',
-			image: 'https://placehold.co/600x400/pink/white?text=Map+1',
+			description: 'March 30, 2026',
+			image: map1,
 			url: 'https://xinmiaooo.github.io/clicklatlng/'
 		}
 	];
